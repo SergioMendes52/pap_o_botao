@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Botão</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+    <body class="home-bg">
+        
+        <video autoplay loop muted plays-inline class="back-video">
+                <source src="assets/videos/videoplayback.mp4" type="video/mp4">
+        </video>
+        
+        <div class="menu-container">
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <nav id="nav-menu" class="hidden">
+                <a href="pap.html">Sinopse da PAP</a>
+                <a href="videos.html">Vídeos</a>
+                <a href="musicas.html">Músicas</a>
+                <a href="guiao.html">Guião</a>
+                <a href="mailto:mendesss825@gmail.com">Contacto</a>
+            </nav>
+        </div>
+    <main class="hero-content">
+        <img src="assets/images/icon-192.png" alt="Logo" class="main-logo">
+    </main>
+ 
+        <footer>Powered by Sérgio Mendes</footer>
+ 
+        <script>
+ function toggleMenu() {
+ document.getElementById('nav-menu').classList.toggle('hidden');
+ }
+        </script>
+    </body>
+</html>
