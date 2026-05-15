@@ -1,21 +1,23 @@
 {
- "short_name": "MyHub",
- "name": "My Creative Hub - Digital Card",
- "icons": [
- {
- "src": "assets/images/icon-192.jpg",
- "type": "image/png",
- "sizes": "192x192"
- },
- {
- "src": "assets/images/icon-512.jpg",
- "type": "image/png",
- "sizes": "512x512"
- }
- ],
- "start_url": "index.html",
- "background_color": "#1a1a1a",
- "display": "standalone",
- "scope": "/",
- "theme_color": "#1a1a1a"
+  "short_name": "O Botão",
+  "name": "O Botão",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#8b0000",
+  "background_color": "#ffffff"
 }
