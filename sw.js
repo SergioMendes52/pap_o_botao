@@ -1,4 +1,4 @@
-const cacheName = 'O Botão v1';
+const cacheName = 'O Botão v2';
 
 const assets = [
   './',
