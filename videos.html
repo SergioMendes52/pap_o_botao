@@ -4,55 +4,59 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>A minha PAP - My Creative Hub</title>
+
  <link rel="stylesheet" href="style.css">
  <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
-   <script src="sw.js"></script>
-    <video autoplay loop muted plays-inline class="back-video">
-                <source src="assets/videos/video2.mp4" type="video/mp4">
-        </video>
-        
- <header>
- 
-     <h1>Sínopse</h1>
- 
-     <p class="bio"></p>
- 
+
+<script src="sw.js"></script>
+
+<video autoplay loop muted playsinline class="back-video">
+    <source src="assets/videos/video2.mp4" type="video/mp4">
+</video>
+
+<header>
+    <h1>Sínopse</h1>
+    <p class="bio"></p>
 </header>
- 
-    <main class="links-container">
- 
+
+<main class="links-container">
+
 <div class="pap-content">
- 
-            
-<div class="slideshow-container">
 
-  <div class="mySlideVideo fade">
-    <source src="assets/videos/4_2.mp4" type="video/mp4">
-  </div>
+    <div class="galeria-videos">
 
-  <div class="mySlideVideo fade">
-    <source src="assets/videos/4_1.mp4" type="video/mp4">
-  </div>
+        <div class="video-card">
+            <video controls>
+                <source src="assets/videos/4_2.mp4" type="video/mp4">
+            </video>
+        </div>
 
-  <div class="mySlideVideo fade">
-    <source src="assets/videos/6.mp4" type="video/mp4">
-  </div>
+        <div class="video-card">
+            <video controls>
+                <source src="assets/videos/4_1.mp4" type="video/mp4">
+            </video>
+        </div>
 
-  
-  <a class="prev" onclick="passaSlide(-1)">❮</a>
-  <a class="next" onclick="passaSlide(1)">❯</a>
+        <div class="video-card">
+            <video controls>
+                <source src="assets/videos/6.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+    <p class="pap-text">
+        Aqui estão algumas gravações da minha PAP.
+    </p>
+
 </div>
- 
-            <p class="pap-text">
- 
-                Aqui estão algumas gravações da minha pap.
- 
-            </p>
- </div>
 
- <a href="index.html" class="btn">Voltar ao Hub</a>
- </main>
+<a href="index.html" class="btn">Voltar ao Hub</a>
+
+</main>
+
 </body>
 </html>
