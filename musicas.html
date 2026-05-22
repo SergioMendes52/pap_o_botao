@@ -4,33 +4,66 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>A minha PAP - My Creative Hub</title>
+
  <link rel="stylesheet" href="style.css">
  <link rel="manifest" href="manifest.json">
 </head>
-<body>
- <script src="sw.js"></script>
- <header>
- 
-     <h1>O Botão</h1>
- 
-     <p class="bio">Projeto de Aptidão Profissional</p>
- 
-</header>
- 
-    <main class="links-container">
- 
-<div class="pap-content">
- 
-            <img src="assets/images/pap-preview.jpg" alt="Preview da PAP" class="papimage">
- 
-            <p class="pap-text">
- 
-                O meu projeto de PAP consiste numa curta-metragem, sobre a reflexão da vida e o medo de crescer, César tem medo de crescer e de aceitar que já não é mais uma criança e tem desejo de parar o tempo, obviamente isso não é possívél, pelo menos não no nosso mundo, então ele encontra um botão, um botão que permite parar o tempo.
- 
-            </p>
- </div>
 
- <a href="index.html" class="btn">Voltar ao Hub</a>
- </main>
+<body>
+
+<script src="sw.js"></script>
+
+<video autoplay loop muted playsinline class="back-video">
+    <source src="assets/videos/video3.mp4" type="video/mp4">
+</video>
+
+<header>
+    <h1>Músicas</h1>
+</header>
+
+<main class="links-container">
+
+<div class="music-gallery">
+
+    <!-- Música 1 -->
+    <div class="music-card">
+
+        <img src="assets/images/music1.jpg" alt="Capa Música 1">
+
+        <h2>Tears from a kid</h2>
+
+        <audio controls>
+            <source src="assets/audio/music1.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+
+    <!-- Música 2 -->
+    <div class="music-card">
+
+        <img src="assets/images/music2.jpg" alt="Capa Música 2">
+
+        <h2>Garden</h2>
+
+        <audio controls>
+            <source src="assets/audio/music2.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <p class="pap-text">
+        Todas as músicas foram produzidas por mim.
+    </p>
+
+</div>
+
+<a href="index.html" class="btn">Voltar ao Hub</a>
+
+</main>
+
 </body>
 </html>
