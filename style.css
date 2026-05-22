@@ -190,6 +190,46 @@ header .bio {
     display:block;
 }
 
+.music-gallery{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.music-card{
+    width:320px;
+    background:rgba(0,0,0,0.5);
+    padding:15px;
+    border-radius:25px;
+    backdrop-filter:blur(6px);
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.music-card:hover{
+    transform:scale(1.03);
+}
+
+.music-card img{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:15px;
+    object-fit:cover;
+}
+
+.music-card h2{
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.music-card audio{
+    width:100%;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
